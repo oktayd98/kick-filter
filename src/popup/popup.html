@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KickFilter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>KickFilter</h1>
+      <div class="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="toggle-extension" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </header>
+    <main>
+      <div class="input-group">
+        <input type="text" id="streamer-name" placeholder="Enter streamer name">
+        <button id="add-btn" class="primary-btn">Add</button>
+      </div>
+      <ul id="ignored-list"></ul>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
