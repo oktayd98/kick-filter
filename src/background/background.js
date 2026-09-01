@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(() => {
-    console.log('KickFilter extension installed');
+    console.log('Kicker extension installed');
     chrome.storage.sync.set({ enabled: true });
 });
 
